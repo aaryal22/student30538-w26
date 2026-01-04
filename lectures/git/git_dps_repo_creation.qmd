@@ -1,0 +1,18 @@
+
+---
+title: "Version Control Do-Pair-Share Solution"
+author: "Peter Ganong, Maggie Shi, and Will Pennington" 
+date: "2025-10-17"
+format:
+    revealjs:
+        slide-number: true
+        show-slide-number: all
+---
+
+## Do-Pair-Share solution{style="font-size: 0.7em"}
+1. `$ git init test`
+2. `$ cd test`
+3. `$ touch small_file.txt`, `$ touch large_file.txt`, `$ touch .gitignore`
+4. `$ git add small_file.txt` `$ git commit -m "my first commit"`
+5. self-explanatory
+6. `$ git add .gitignore` `$ git commit -m "ignore large file"`
